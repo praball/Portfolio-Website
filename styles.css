@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+.navbar-custom{
+    background-color: #515E6300;
+    color: white;
+}
+.navbar-custom a:hover{
+    background-color: #206A5D;
+    color: #206A5D;
+}
+.navbar-active{
+    /* background-color: #515E63; */
+    background-color: #2b3333;
+    color: white;
+    transition: ease 0.25s;
+}
+
+.landing{
+    height: 100vh;
+    width: 100%;
+    background-image: url("mount4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.hello{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -135px;
+    margin-top: -50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+.container{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.intro-box{
+    padding-top: 70px;
+}
+.about-me{
+    text-align: center;
+    font-weight: bold;
+    /* margin-top: 100px; */
+    font-size: 40px;
+    color: #206A5D;
+}
+.description{
+    text-align: left;
+    padding-top: 25px;
+    font-size: 17px;
+    color: #515E63;
+}
+.profile{
+    border-radius: 200px;
+    height: 250px;
+}
+.education{
+    text-align: center;
+}
+.education-section{
+    padding: 50px;
+}
+.education-cards{
+    padding-top: 50px;
+}
+.skill-section{
+    padding: 50px;
+}
+.skill-section img{
+    height: 120px;
+}
+.cp-photo{
+    text-align: right;
+    margin-right: 100px;
+}
+.cp-text{
+    text-align: center;
+}
+.cp-text h4{
+    color: #206A5D;
+}
+.web-photo{
+    margin-left: 100px;
+}
+.web-text{
+    text-align: center;
+}
+.web-text h4{
+    color: #206A5D;
+}
+.footer{
+    height: 250px;
+    /* background-color: #515E63; */
+    background-color: #2b3333;
+;
+    text-align: center;
+    color: white;
+}
+.footer img{
+    height: 20px;
+}
+
+.contact-me{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.links-one{
+   padding: 50px;
+   color: white;
+}
+.links-one:hover{
+    color: #000000;
+}
+.icons{
+    height: 10px;
+    padding: 10px;
+    color: white;
+}
+.icons:hover{
+    color: #000000;
+}
+.blank{
+    height: 200px;
+}
+
+.edcard2{
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .web-photo {
+      display: none;
+    }
+    .cp-text{
+        padding-top: 50px;
+    }
+    .description{
+        text-align: center;
+    }
+  }
